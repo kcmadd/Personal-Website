@@ -1,18 +1,23 @@
-body {
-  background-color: black;
-  color: white;
-  user-select: none;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
+#main section {
+    background-size: cover;
+    height:100vh;
+    width: 100vw;
+    display: table;
 }
 
-rmvline {
-  outline: none;
-  text-decoration: none;
+#introduction{
+    background-color: black;
+    color: white;
 }
+#experience{
+    background-color: white;
+    color: black;
+}
+#projects{
+    background-color: black;
+    color: white;
+}
+
 
 .negativeMargin {
   margin-top: -10px;
@@ -22,5 +27,35 @@ img {
 }
 
 .center {
-  text-align: center
+  text-align: center;
+}
+
+.w3-container{
+ padding-left: 20%;
+ padding-right: 20%;
+ padding-top: 5%;
+ padding-bottom: 5%;
+  align-items: center;
+}
+
+.tab{
+  margin-left: 5%;
+}
+.tab2{
+  text-indent: 7%;
+}
+.tab3{
+  text-indent: 10%;
+}
+
+.location{
+  float: right;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
